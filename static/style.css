@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Serif", serif;
+}
+body{
+  /* background-color: #f1f1f1; */
+  background-color: white;
+}
+/*  Navbar Section */
+
+#navbar {
+  padding: 15px 20px;
+  background-color: #bae8e8;
+}
+#navbar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#navbar li {
+  list-style: none;
+}
+#navbar li a {
+  font-size: x-large;
+  color: black;
+  font-family: "Noto Sans Display", sans-serif;
+  text-decoration: none;
+  padding: 8px 20px;
+}
+#navbar li a:hover {
+  color: white;
+}
+
+/* Intoduction sectionc */
+#secintro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  font-size: 2rem;
+  background: center/cover no-repeat url(/static/bg1.jpg);
+  /* height: 850px; */
+  height: 550px;
+  background-color: blueviolet;
+}
+#secintro div.sm {
+  font-size: 1.2rem;
+  padding: 5px;
+}
+
+/* Our speclity  section*/
+#secspecility {
+  height: 400px;
+}
+#secspecility h5 {
+  color: black;
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 25px;
+}
+.card {
+  display: inline-block;
+  /* background-color: black; */
+  /* color: white; */
+  border: 2px solid rgb(21, 167, 167);
+  border-radius: 10px;
+  width: 30%;
+  margin: 23px 30px;
+  /* height: 294px; */
+  height: 400px;
+}
+
+.card h3 {
+  text-align: center;
+  margin: 30px 12px;
+}
+
+.card-box {
+  display: flex;
+  /* display: inline-block; */
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+
+.card-img {
+  margin: 20px;
+  height: 100px;
+  padding: 0px 14px;
+}
+.card-img img {
+  height: 150px;
+  width: 300px;
+}
+
+.card-con {
+  padding: 0px 10px;
+  margin: 25px;
+}
+.card-con p {
+  margin: 25px;
+}
+/* Sponsors Section  */
+#secspons {
+  margin-top: 180px;
+  color: black;
+  font-size: 2rem;
+  height: 580px;
+  /* background-color: #e3f6f5; */
+  padding-top: 25px;
+  /* background: center/cover no-repeat url(/static/bg2.jpg); */
+}
+#secspons h5 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.s-img {
+  height: 560px;
+  width: 100%;
+  background: center/cover no-repeat url(../static/amazon.png);
+}
+
+/* Footer section  */
+#footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  background-color: #272343;
+  color: white;
+  margin: auto;
+}

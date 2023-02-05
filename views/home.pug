@@ -1,0 +1,47 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style
+        include ../static/style.css
+
+block content
+        section#secintro
+            div Welcome to Sagar's Dance Academy
+            div.sm Dancing is like dreaming with your feet!
+
+        section#secspecility
+            h5 Our Specility
+            div.card
+                h3 Bollywood
+                    div.card-box
+                        div.card-img
+                            img(src="../static/b2.jpg", alt="")
+
+                        div.card-con 
+                        p Kathak is characterized by intricate footwork and precise rhythmic patterns that the dancer articulates by controlling about 100 ankle bells. It takes its movements from life, stylizes them, and adds the complex rhythmic patterns. Kathak is danced by both males and females; many of the dances convey moods of love.
+            div.card
+                h3 Hip Hop
+                    div.card-box
+                        div.card-img
+                            img(src="../static/h1.jpg", alt="")
+
+                        div.card-con 
+                        p Hip hop dance is a range of street dance styles primarily performed to hip hop music or that have evolved as part of hip hop culture. It is influenced by a wide range of styles that were created in the 1970s and made popular by dance crews in the United States.
+            div.card
+                h3 Salsa
+                    div.card-box
+                        div.card-img
+                            img(src="../static/s2.jpg", alt="")
+
+                        div.card-con 
+                        p Salsa is a latin dance, associated with the music genre of the same name, which was first popularized in the United States in the 1960s in New York City. Salsa is a mixture of Cuban dances, such as mambo, pachanga and rumba, as well as American dances such as swing and tap.
+
+        section#secspons
+            h5 Our Sponsors
+            div.s-img              
+
+        footer#footer 
+            | Copyright © 2023 sagardanceacandemy.com | All Right Reserved.
